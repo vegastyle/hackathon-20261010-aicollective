@@ -1,0 +1,7 @@
+model/embeddinggemma-2-text-vision-440m.litertlm: OK
+-rw-r--r-- 1 Vega 197121 387710976 Oct 10 11:25 model/embeddinggemma-2-text-vision-440m.litertlm
+Python 3.12.9
+litert-lm==0.18.0
+numpy==2.5.3
+pillow==12.3.0
+requests==2.34.2

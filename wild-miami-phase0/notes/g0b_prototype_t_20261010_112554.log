@@ -1,0 +1,423 @@
+WARNING: Logging before InitGoogle() is written to STDERR
+W0000 00:00:1791645955.002070    5756 litert_lm_loader.cc:391] Section not found: TFLiteModel
+W0000 00:00:1791645955.002192    5756 litert_lm_loader.cc:479] TFLite model for type: tf_lite_audio_encoder_hw not found. Skipping.
+W0000 00:00:1791645955.002206    5756 litert_lm_loader.cc:391] Section not found: TFLiteModel
+W0000 00:00:1791645955.002215    5756 litert_lm_loader.cc:479] TFLite model for type: tf_lite_audio_frontend not found. Skipping.
+W0000 00:00:1791645955.002436    5756 litert_lm_loader.cc:391] Section not found: SP_Tokenizer
+INFO: [environment.cc:36] Creating LiteRT environment with options
+WARNING: [npu_registry.cc:34] NPU accelerator could not be loaded and registered: kLiteRtStatusErrorNotFound.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=000001FF6F89CD80, name=GPU WebGPU
+INFO: [gpu_registry.cc:113] Statically linked GPU accelerator registered.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=000001FF6FCA99D0, name=CpuAccelerator
+INFO: [cpu_registry.cc:75] XNNPACK CPU accelerator registered.
+W0000 00:00:1791645955.071330    5756 litert_lm_loader.cc:532] TFLite model type: tf_lite_audio_encoder_hw not found for prefer activation type. Use system's default backend activation type. System's default activation type for Text decoder is fp16. Vision encoder and audio encoder default is fp32.
+W0000 00:00:1791645955.071366    5756 litert_lm_loader.cc:514] TFLite model type: tf_lite_audio_encoder_hw not found for backend constraints. Skipping.
+INFO: [environment.cc:36] Creating LiteRT environment with options
+WARNING: [npu_registry.cc:34] NPU accelerator could not be loaded and registered: kLiteRtStatusErrorNotFound.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=000001FF6FCA94F0, name=GPU WebGPU
+INFO: [gpu_registry.cc:113] Statically linked GPU accelerator registered.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=000001FF6FCA9970, name=CpuAccelerator
+INFO: [cpu_registry.cc:75] XNNPACK CPU accelerator registered.
+W0000 00:00:1791645955.167143    5756 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+INFO: [compiled_model.cc:829] Flatbuffer model initialized directly from incoming litert model.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: [compiled_model.cc:829] Flatbuffer model initialized directly from incoming litert model.
+W0000 00:00:1791645955.606191    5756 litert_lm_loader.cc:391] Section not found: TFLiteModel
+W0000 00:00:1791645955.606258    5756 litert_lm_loader.cc:479] TFLite model for type: tf_lite_audio_encoder_hw not found. Skipping.
+W0000 00:00:1791645955.606337    5756 litert_lm_loader.cc:391] Section not found: TFLiteModel
+W0000 00:00:1791645955.606350    5756 litert_lm_loader.cc:479] TFLite model for type: tf_lite_end_of_audio not found. Skipping.
+W0000 00:00:1791645955.606369    5756 litert_lm_loader.cc:391] Section not found: TFLiteModel
+W0000 00:00:1791645955.606378    5756 litert_lm_loader.cc:479] TFLite model for type: tf_lite_end_of_audio not found. Skipping.
+INFO: [compiled_model.cc:829] Flatbuffer model initialized directly from incoming litert model.
+INFO: [compiled_model.cc:829] Flatbuffer model initialized directly from incoming litert model.
+INFO: [compiled_model.cc:1856] Tracked constant output tensor eoi_embedding with locked address
+W0000 00:00:1791645955.609450    5756 litert_lm_loader.cc:391] Section not found: TFLiteModel
+W0000 00:00:1791645955.609476    5756 litert_lm_loader.cc:479] TFLite model for type: tf_lite_per_layer_embedder not found. Skipping.
+INFO: [compiled_model.cc:829] Flatbuffer model initialized directly from incoming litert model.
+INFO: [environment.cc:36] Creating LiteRT environment with options
+WARNING: [npu_registry.cc:34] NPU accelerator could not be loaded and registered: kLiteRtStatusErrorNotFound.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=000001FF1BF5E9D0, name=GPU WebGPU
+INFO: [gpu_registry.cc:113] Statically linked GPU accelerator registered.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=000001FF1BF5FAB0, name=CpuAccelerator
+INFO: [cpu_registry.cc:75] XNNPACK CPU accelerator registered.
+I0000 00:00:1791645955.872094    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645959.434539    5756 stb_image_preprocessor.cc:79] Resize image from 1024x783 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645963.041826    5756 stb_image_preprocessor.cc:79] Resize image from 1024x628 to 720x432 which will result in 1215 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645966.527530    5756 stb_image_preprocessor.cc:79] Resize image from 1024x576 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645969.859418    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645973.321811    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645976.836696    5756 stb_image_preprocessor.cc:79] Resize image from 1024x651 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645980.334883    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645983.821397    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645987.305386    5756 stb_image_preprocessor.cc:79] Resize image from 833x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645990.691329    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645994.025683    5756 stb_image_preprocessor.cc:79] Resize image from 799x750 to 576x528 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791645997.371889    5756 stb_image_preprocessor.cc:79] Resize image from 800x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646000.729878    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646004.088950    5756 stb_image_preprocessor.cc:79] Resize image from 576x1024 to 384x720 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646007.383053    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646010.874463    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646014.543752    5756 stb_image_preprocessor.cc:79] Resize image from 686x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646018.039332    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646021.430206    5756 stb_image_preprocessor.cc:79] Resize image from 779x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646024.802269    5756 stb_image_preprocessor.cc:79] Resize image from 683x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646028.165053    5756 stb_image_preprocessor.cc:79] Resize image from 1024x758 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646031.514009    5756 stb_image_preprocessor.cc:79] Resize image from 1024x770 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646034.888372    5756 stb_image_preprocessor.cc:79] Resize image from 683x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646038.419551    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646041.886779    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646045.533781    5756 stb_image_preprocessor.cc:79] Resize image from 1024x1024 to 528x528 which will result in 1089 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646048.904408    5756 stb_image_preprocessor.cc:79] Resize image from 771x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646052.377186    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646055.751677    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646059.156251    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646062.543186    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646065.949389    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646069.275684    5756 stb_image_preprocessor.cc:79] Resize image from 1024x576 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646072.452467    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646075.800239    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646079.175342    5756 stb_image_preprocessor.cc:79] Resize image from 461x1024 to 336x816 which will result in 1071 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646082.378671    5756 stb_image_preprocessor.cc:79] Resize image from 1024x640 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646085.763300    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646089.208346    5756 stb_image_preprocessor.cc:79] Resize image from 576x1024 to 384x720 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646092.432431    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646095.785263    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646099.145647    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646102.572189    5756 stb_image_preprocessor.cc:79] Resize image from 1024x828 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646105.979052    5756 stb_image_preprocessor.cc:79] Resize image from 576x1024 to 384x720 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646109.145004    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646112.534040    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646115.911563    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646119.276604    5756 stb_image_preprocessor.cc:79] Resize image from 1024x576 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646122.486139    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646125.852866    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646129.254925    5756 stb_image_preprocessor.cc:79] Resize image from 1024x682 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646132.605013    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646135.980181    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646139.358824    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646142.761897    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646146.146360    5756 stb_image_preprocessor.cc:79] Resize image from 1024x904 to 576x528 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646149.516371    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646152.891913    5756 stb_image_preprocessor.cc:79] Resize image from 1024x1024 to 528x528 which will result in 1089 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646156.093187    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646159.478505    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646162.848061    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646166.219375    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646169.603958    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646172.977925    5756 stb_image_preprocessor.cc:79] Resize image from 1024x941 to 576x528 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646176.344080    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646179.691571    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646183.056901    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646186.426726    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646189.805966    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646193.209145    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646196.578990    5756 stb_image_preprocessor.cc:79] Resize image from 1024x673 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646199.944346    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646203.351986    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646206.718832    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646210.073483    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646213.434001    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646216.760863    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646220.097433    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646223.483448    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646226.811397    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646230.145750    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646233.497917    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646236.859689    5756 stb_image_preprocessor.cc:79] Resize image from 1024x576 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646240.039920    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646243.368247    5756 stb_image_preprocessor.cc:79] Resize image from 576x1024 to 384x720 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646246.823800    5756 stb_image_preprocessor.cc:79] Resize image from 1024x826 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646250.613601    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646254.254326    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646258.011802    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646261.757258    5756 stb_image_preprocessor.cc:79] Resize image from 680x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646265.387079    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646268.870557    5756 stb_image_preprocessor.cc:79] Resize image from 1024x661 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646272.332516    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646275.775958    5756 stb_image_preprocessor.cc:79] Resize image from 426x240 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646279.063897    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646282.521412    5756 stb_image_preprocessor.cc:79] Resize image from 1024x685 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646285.962011    5756 stb_image_preprocessor.cc:79] Resize image from 1024x686 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646289.433505    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646292.878075    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646296.285041    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646299.773599    5756 stb_image_preprocessor.cc:79] Resize image from 1018x679 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646303.232467    5756 stb_image_preprocessor.cc:79] Resize image from 1024x592 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646306.515503    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646309.973040    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646313.431184    5756 stb_image_preprocessor.cc:79] Resize image from 576x1024 to 384x720 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646316.615048    5756 stb_image_preprocessor.cc:79] Resize image from 1024x811 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646320.085421    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646323.530235    5756 stb_image_preprocessor.cc:79] Resize image from 699x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646327.142517    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646330.881973    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646334.593040    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646338.336620    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646342.234095    5756 stb_image_preprocessor.cc:79] Resize image from 532x640 to 480x576 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646345.590454    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646349.338252    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646353.070481    5756 stb_image_preprocessor.cc:79] Resize image from 1024x650 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646356.845940    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646360.291110    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646363.759523    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646367.269370    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646370.777769    5756 stb_image_preprocessor.cc:79] Resize image from 1024x849 to 576x480 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646374.028345    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646377.403446    5756 stb_image_preprocessor.cc:79] Resize image from 1024x576 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646380.956418    5756 stb_image_preprocessor.cc:79] Resize image from 1013x1024 to 528x528 which will result in 1089 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646384.488966    5756 stb_image_preprocessor.cc:79] Resize image from 730x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646388.130994    5756 stb_image_preprocessor.cc:79] Resize image from 1024x424 to 864x336 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646391.590559    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646395.053820    5756 stb_image_preprocessor.cc:79] Resize image from 1024x608 to 720x432 which will result in 1215 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646398.552220    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646401.969863    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646405.402720    5756 stb_image_preprocessor.cc:79] Resize image from 1024x599 to 720x432 which will result in 1215 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646408.891853    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646412.650873    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646416.438148    5756 stb_image_preprocessor.cc:79] Resize image from 1024x850 to 576x480 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646419.764484    5756 stb_image_preprocessor.cc:79] Resize image from 1024x1024 to 528x528 which will result in 1089 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646423.093543    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646426.507154    5756 stb_image_preprocessor.cc:79] Resize image from 1024x680 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646429.984772    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646433.575990    5756 stb_image_preprocessor.cc:79] Resize image from 1024x679 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646436.976962    5756 stb_image_preprocessor.cc:79] Resize image from 1024x723 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646440.672756    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646444.431595    5756 stb_image_preprocessor.cc:79] Resize image from 526x640 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646448.019362    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646451.548783    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646455.038881    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646458.522008    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646462.110907    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646465.569293    5756 stb_image_preprocessor.cc:79] Resize image from 1024x1024 to 528x528 which will result in 1089 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646468.832707    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646472.295841    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646475.913673    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646479.702579    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646483.428391    5756 stb_image_preprocessor.cc:79] Resize image from 1024x878 to 576x480 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646486.684890    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646490.155675    5756 stb_image_preprocessor.cc:79] Resize image from 978x734 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646493.581803    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646496.935346    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646500.385991    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646503.878243    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646507.626271    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646511.367742    5756 stb_image_preprocessor.cc:79] Resize image from 641x425 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646514.972018    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646518.448263    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646521.912468    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646525.326002    5756 stb_image_preprocessor.cc:79] Resize image from 1024x637 to 720x432 which will result in 1215 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646528.752230    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646532.335589    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646536.043305    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646539.801933    5756 stb_image_preprocessor.cc:79] Resize image from 1024x956 to 576x528 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646543.538066    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646546.980080    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646550.463332    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646553.914600    5756 stb_image_preprocessor.cc:79] Resize image from 576x1024 to 384x720 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646557.130244    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646560.556460    5756 stb_image_preprocessor.cc:79] Resize image from 736x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646563.999491    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646567.733944    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646571.531408    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646575.120712    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646578.599787    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646582.032765    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646585.417159    5756 stb_image_preprocessor.cc:79] Resize image from 683x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646588.809869    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646592.328458    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646595.919552    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646599.688379    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646603.473420    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646606.920147    5756 stb_image_preprocessor.cc:79] Resize image from 1024x1008 to 528x528 which will result in 1089 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646610.200956    5756 stb_image_preprocessor.cc:79] Resize image from 1024x769 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646613.635112    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646616.960793    5756 stb_image_preprocessor.cc:79] Resize image from 719x571 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646620.454419    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646623.915186    5756 stb_image_preprocessor.cc:79] Resize image from 720x629 to 576x528 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646627.659933    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646631.463078    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646635.117326    5756 stb_image_preprocessor.cc:79] Resize image from 776x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646638.601837    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646642.237246    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646645.707367    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646649.472320    5756 stb_image_preprocessor.cc:79] Resize image from 1024x732 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646653.226640    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646656.937491    5756 stb_image_preprocessor.cc:79] Resize image from 767x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646660.692853    5756 stb_image_preprocessor.cc:79] Resize image from 1024x699 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646664.424193    5756 stb_image_preprocessor.cc:79] Resize image from 1024x1024 to 528x528 which will result in 1089 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646667.975274    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646671.635437    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646675.060593    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646678.455398    5756 stb_image_preprocessor.cc:79] Resize image from 1024x1018 to 528x528 which will result in 1089 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646681.752615    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646685.208800    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646688.665417    5756 stb_image_preprocessor.cc:79] Resize image from 946x1024 to 528x576 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646692.118891    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646695.695582    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646699.433596    5756 stb_image_preprocessor.cc:79] Resize image from 1024x836 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646703.016377    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646706.391743    5756 stb_image_preprocessor.cc:79] Resize image from 1024x684 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646709.868591    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646713.321499    5756 stb_image_preprocessor.cc:79] Resize image from 720x960 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646716.806864    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646720.379879    5756 stb_image_preprocessor.cc:79] Resize image from 1024x923 to 576x528 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646723.853782    5756 stb_image_preprocessor.cc:79] Resize image from 640x495 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646727.545139    5756 stb_image_preprocessor.cc:79] Resize image from 576x1024 to 384x720 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646731.138458    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646734.570880    5756 stb_image_preprocessor.cc:79] Resize image from 1024x797 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646737.953506    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646741.403965    5756 stb_image_preprocessor.cc:79] Resize image from 1024x672 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646744.846986    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646748.299559    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646751.757270    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646755.129567    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646758.652920    5756 stb_image_preprocessor.cc:79] Resize image from 1024x682 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646762.286615    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646765.724966    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646769.126020    5756 stb_image_preprocessor.cc:79] Resize image from 1024x621 to 720x432 which will result in 1215 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646772.536838    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646775.931925    5756 stb_image_preprocessor.cc:79] Resize image from 1024x819 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646779.305190    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646782.689314    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646786.058114    5756 stb_image_preprocessor.cc:79] Resize image from 1024x576 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646789.337653    5756 stb_image_preprocessor.cc:79] Resize image from 1024x681 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646792.812441    5756 stb_image_preprocessor.cc:79] Resize image from 1024x790 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646796.175966    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646799.518908    5756 stb_image_preprocessor.cc:79] Resize image from 1024x679 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646802.918515    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646806.325976    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646809.692529    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646813.135205    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646816.545684    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646819.985257    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646823.464896    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646826.935478    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646830.434146    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646833.830522    5756 stb_image_preprocessor.cc:79] Resize image from 1016x1016 to 528x528 which will result in 1089 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646837.029662    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646840.416887    5756 stb_image_preprocessor.cc:79] Resize image from 577x1024 to 384x720 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646843.629511    5756 stb_image_preprocessor.cc:79] Resize image from 1024x737 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646847.009785    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646850.406528    5756 stb_image_preprocessor.cc:79] Resize image from 1024x803 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646853.805120    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646857.150210    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646860.577750    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646863.927043    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646867.281626    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646870.630277    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646873.973928    5756 stb_image_preprocessor.cc:79] Resize image from 869x581 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646877.291923    5756 stb_image_preprocessor.cc:79] Resize image from 1024x729 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646880.622714    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646883.997418    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646887.383011    5756 stb_image_preprocessor.cc:79] Resize image from 773x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646890.744354    5756 stb_image_preprocessor.cc:79] Resize image from 592x787 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646894.084687    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646897.466102    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646900.895205    5756 stb_image_preprocessor.cc:79] Resize image from 1024x576 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646904.169135    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646907.660317    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646911.042403    5756 stb_image_preprocessor.cc:79] Resize image from 1024x576 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646914.239357    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646917.586909    5756 stb_image_preprocessor.cc:79] Resize image from 1024x684 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646920.943602    5756 stb_image_preprocessor.cc:79] Resize image from 683x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646924.316877    5756 stb_image_preprocessor.cc:79] Resize image from 1024x708 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646927.722102    5756 stb_image_preprocessor.cc:79] Resize image from 683x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646931.101960    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646934.568203    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646937.945857    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646941.274634    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646944.603497    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646947.926565    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646951.275579    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646954.679691    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646958.017262    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646961.404739    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646964.812240    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646968.181138    5756 stb_image_preprocessor.cc:79] Resize image from 887x1024 to 528x576 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646971.532453    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646974.872912    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646978.256591    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646981.610967    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646984.957107    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646988.327353    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646991.821762    5756 stb_image_preprocessor.cc:79] Resize image from 759x721 to 576x528 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646995.234136    5756 stb_image_preprocessor.cc:79] Resize image from 643x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791646998.649895    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647002.037103    5756 stb_image_preprocessor.cc:79] Resize image from 771x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647005.471065    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647008.813664    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647012.162124    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647015.522489    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647018.945566    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647022.341636    5756 stb_image_preprocessor.cc:79] Resize image from 1024x1024 to 528x528 which will result in 1089 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647025.558705    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647028.918453    5756 stb_image_preprocessor.cc:79] Resize image from 1024x684 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647032.339318    5756 stb_image_preprocessor.cc:79] Resize image from 683x1024 to 432x672 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647035.810141    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647039.162734    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647042.479458    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647045.874188    5756 stb_image_preprocessor.cc:79] Resize image from 1024x677 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647049.261060    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647052.627066    5756 stb_image_preprocessor.cc:79] Resize image from 1024x691 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647056.046085    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647059.499142    5756 stb_image_preprocessor.cc:79] Resize image from 1024x789 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647063.054313    5756 stb_image_preprocessor.cc:79] Resize image from 1024x646 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647066.495206    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647069.864666    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647073.238488    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647076.655229    5756 stb_image_preprocessor.cc:79] Resize image from 1024x678 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647080.043629    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647083.430642    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647086.810240    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647090.221518    5756 stb_image_preprocessor.cc:79] Resize image from 915x1024 to 528x576 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647093.740001    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647097.178055    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647100.594102    5756 stb_image_preprocessor.cc:79] Resize image from 1024x799 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647104.030506    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647107.421101    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647110.813718    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647114.197773    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647117.599684    5756 stb_image_preprocessor.cc:79] Resize image from 426x240 to 720x384 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647120.803330    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647124.225858    5756 stb_image_preprocessor.cc:79] Resize image from 921x1024 to 528x576 which will result in 1188 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647127.657574    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647131.107550    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647134.609554    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647138.143664    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647141.540781    5756 stb_image_preprocessor.cc:79] Resize image from 1024x683 to 672x432 which will result in 1134 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647144.940969    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647148.348688    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647151.753941    5756 stb_image_preprocessor.cc:79] Resize image from 768x1024 to 480x624 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647155.132334    5756 stb_image_preprocessor.cc:79] Resize image from 1024x768 to 624x480 which will result in 1170 patches to fit the max_num_patches: 1260 limit.
+I0000 00:00:1791647158.549257    5756 stb_image_preprocessor.cc:79] Resize image from 640x532 to 576x480 which will result in 1080 patches to fit the max_num_patches: 1260 limit.
+INFO: [accelerator_registry.cc:43] DestroyAccelerator: ptr=000001FF6FCA99D0, name=CpuAccelerator
+INFO: [accelerator_registry.cc:43] DestroyAccelerator: ptr=000001FF6F89CD80, name=GPU WebGPU
+{
+  "prefix": "document",
+  "w": 0.75,
+  "params": {
+    "theta": 0.866,
+    "delta": 0.01,
+    "possible_floor": 0.8605
+  },
+  "held_out": {
+    "n_known": 60.0,
+    "n_unknown": 25.0,
+    "n_top1": 48.0,
+    "n_top3": 57.0,
+    "n_correct_likely": 25.0,
+    "n_wrong_likely": 1.0,
+    "n_known_unsure": 23.0,
+    "n_unknown_likely": 2.0,
+    "n_unknown_unsure": 20.0,
+    "top1_accuracy": 0.8,
+    "top3_accuracy": 0.95,
+    "correct_likely_coverage": 0.4166666666666667,
+    "wrong_likely_rate": 0.016666666666666666,
+    "known_abstention": 0.38333333333333336,
+    "unknown_likely_rate": 0.08,
+    "unknown_rejection": 0.8
+  }
+}
+INFO: [accelerator_registry.cc:43] DestroyAccelerator: ptr=000001FF1BF5FAB0, name=CpuAccelerator
+INFO: [accelerator_registry.cc:43] DestroyAccelerator: ptr=000001FF1BF5E9D0, name=GPU WebGPU
