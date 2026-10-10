@@ -2,7 +2,7 @@
 
 Android-first Expo/React Native prototype for the hackathon submission.
 
-## Run
+## Run during development
 
 ```bash
 cd wild-miami-app
@@ -11,6 +11,23 @@ npm run android
 ```
 
 If no Android SDK/device is configured, run `npx expo start` and open it from Expo Go.
+
+## Manual install release APK
+
+For phone installation from a GitHub Release, upload this standalone APK as the release asset:
+
+```text
+wild-miami-app/dist/wild-miami-demo-release.apk
+```
+
+On the phone:
+
+1. Download the APK from the GitHub Release.
+2. Open the downloaded APK.
+3. If Android blocks it, allow “Install unknown apps” for the browser/file manager.
+4. Install and open Wild Miami.
+
+This release APK has the JS bundle embedded and does not require Metro or Expo Go.
 
 ## Current deliverable
 
@@ -32,7 +49,14 @@ Hotlines are only displayed inside the incident picker. Current phone rows are f
 
 ## Android/emulator status
 
-The Orca Android emulator skill was installed, but this shell currently has no `adb` on PATH and `orca emulator devices --json` returned no devices. Android testing is blocked until Android SDK/emulator or a USB-debugging phone is available.
+The local Android SDK was found at `C:\Users\Vega\AppData\Local\Android\Sdk`. A working emulator AVD, `WildMiamiApi36Dev`, was created and used for smoke testing.
+
+Release APK status:
+
+- Built from short path `C:\wm` to avoid Windows path-length issues.
+- Copied to `wild-miami-app/dist/wild-miami-demo-release.apk`.
+- Installed successfully on the local Android emulator.
+- Opened without Metro and showed the Wild Miami fixture/demo home screen.
 
 ## Native model path
 
