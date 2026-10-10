@@ -20,6 +20,8 @@
   - `Match = { speciesId: number; score: number }`
   - `Result = { verdict: 'likely' | 'possible' | 'unsure'; matches: Match[] }`
   - stable species-order tie-breaking
+- Generated Android native project with Expo prebuild.
+- Added Gradle `.litertlm` no-compress setting and an asset placeholder README; real model is not committed.
 
 ## What is real vs fixture
 
@@ -35,6 +37,7 @@ Fixture/demo:
 - Identifier uses a deterministic fixture hash of the photo URI; it is not ML.
 - Runtime DB is created on device rather than loaded from final `assets/wildlife.db`.
 - Native model module is represented by `src/nativeWildEmbedder.ts`, but no Kotlin implementation exists yet.
+- Android native project is generated, but not device-tested because adb/device are unavailable in this shell.
 
 ## Gate status
 

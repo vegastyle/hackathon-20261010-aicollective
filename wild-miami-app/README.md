@@ -21,6 +21,8 @@ If no Android SDK/device is configured, run `npx expo start` and open it from Ex
 - Camera and gallery input plus explicit Demo/FIXTURE path.
 - Result flow with `likely` / `possible` / `unsure`, top-3 alternatives, species safety card, incident picker, and error state.
 - TypeScript scoring contract with stable species-order tie-breaking.
+- Android native project generated with `expo prebuild --platform android`.
+- `.litertlm` model assets configured as uncompressed in `android/app/build.gradle`.
 
 ## Fixture warning
 
@@ -35,3 +37,5 @@ The Orca Android emulator skill was installed, but this shell currently has no `
 ## Native model path
 
 `src/nativeWildEmbedder.ts` records the pinned model SHA-256 and the Kotlin Expo module interface. It deliberately throws until the native module exists, so the app cannot silently claim fixture mode is real ML.
+
+`android/app/src/main/assets/MODEL_ASSET_README.md` marks where the `.litertlm` file can go if bundling is approved. The real model file is intentionally not committed.
